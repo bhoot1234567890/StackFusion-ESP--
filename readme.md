@@ -39,7 +39,10 @@ This approach is better than searching as that has an O(N) Time Complexity.
 My approach has a time complexitiy of O(1)
 
 ## **Problems Faced**
-    Standard SD card library uses 8.3 filename system which states that the maximum filename length should be of 8 letters and extension maximum of 3.
+    Standard SD card library uses 8.3 filename system which states that,
+    the maximum filename length should be of 8 letters and extension maximum of 3.
     Fur Elise.mp3 becomes FURELI~1.MP3
     You may have noticed this in the DOS era.
-    This can be circumvented by using a better SD Card library. greiman / SdFat library should fix this as it can even support exFAT formatted SD cards. The 18 characted filename shouldn't pose a problem now. 
+    This can be circumvented by using a better SD Card library.
+    greiman / SdFat library should fix this as it can even support exFAT formatted SD cards.
+    The 18 characted filename shouldn't pose a problem now. 
