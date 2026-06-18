@@ -117,9 +117,9 @@ flowchart LR
   C -->|yes| D[HTTPS GET FASTag JSON]
   D --> E[Parse with Arduino_JSON]
   E --> F[Print to Serial]
-  F --> G["Write each entry\nas /KEY file on SD"]
+  F --> G["Write each entry<br/>as /KEY file on SD"]
   G --> H{Serial key request?}
-  H -->|yes| I["readFile(SD, key) → value\nO(1) lookup"]
+  H -->|yes| I["readFile(SD, key) → value<br/>O(1) lookup"]
   I --> H
   H -->|no| C
 ```
